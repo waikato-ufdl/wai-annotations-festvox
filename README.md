@@ -1,6 +1,10 @@
 # wai-annotations-festvox
 wai.annotations module for managing festvox audio annotations.
 
+The manual is available here:
+
+https://ufdl.cms.waikato.ac.nz/wai-annotations-manual/
+
 ## Plugins
 ### FROM-FESTVOX-SP
 Reads speech transcriptions in the Festival FestVox format
