@@ -1,9 +1,22 @@
 # wai-annotations-festvox
-wai.annotations module for managing festvox audio annotations.
+wai.annotations module for managing Festvox audio annotations.
 
 The manual is available here:
 
 https://ufdl.cms.waikato.ac.nz/wai-annotations-manual/
+
+
+## File format
+
+The Festvox annotations are stored in a single text file, with one row
+per recording:
+
+```
+( FILENAME "TRANSCRIPT" )
+```
+
+The `FILENAME` is the name of the file without extension.
+
 
 ## Plugins
 ### FROM-FESTVOX-SP
